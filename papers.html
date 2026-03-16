@@ -2,15 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Contact</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers</title>
+    <link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/paper.css">
+<link rel="stylesheet" href="css/footer.css">
   </head>
 
   <body>
     <header>
       <nav class="nav-bar">
-        <h2 class="logo">Tulasi Lasya</h2>
-
+        <h2 class="logo">Portfolio</h2>
+         <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">
+         &#9776
+      </label>
         <ul class="nav-ul">
           <li class="nav-li"><a href="index.html">Home</a></li>
           <li class="nav-li"><a href="about.html">About Me</a></li>
@@ -21,41 +28,31 @@
       </nav>
     </header>
 
-    <section class="contact-container">
-      <h1>Contact</h1>
+    <section class="papers-container">
+      <h1>Research Papers</h1>
 
-      <p class="contact-text">
-        Feel free to reach out if you want to collaborate, discuss a project, or
-        just connect.
+      <p class="papers-intro">
+        This section highlights my academic writing and research work.
       </p>
 
-      <div class="contact-links">
-        <p><strong>Email:</strong> yourmail@example.com</p>
+      <div class="paper-card">
+        <h3>Review Paper Title</h3>
 
-        <p>
-          <strong>GitHub:</strong>
-          <a href="https://github.com/yourusername" target="_blank">
-            github.com/yourusername
-          </a>
+        <p class="paper-desc">
+          A review paper that analyzes and summarizes existing research in the
+          selected topic area. The work focuses on understanding different
+          approaches, key developments, and future directions in the field.
         </p>
 
-        <p>
-          <strong>LinkedIn:</strong>
-          <a href="#"> linkedin.com/in/yourprofile </a>
-        </p>
+        <p class="paper-meta"><strong>Author:</strong> Tulasi Lasya Gorrela</p>
+
+        <p class="paper-meta"><strong>Year:</strong> 2026</p>
+
+        <div class="paper-links">
+          <a href="#">View Paper</a>
+          <a href="#">Download PDF</a>
+        </div>
       </div>
-
-      <h2>Send a Message</h2>
-
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-
-        <input type="email" placeholder="Your Email" required />
-
-        <textarea placeholder="Your Message"></textarea>
-
-        <button type="submit">Send</button>
-      </form>
     </section>
 
     <footer class="footer">
@@ -96,6 +93,7 @@
       <div class="footer-bottom">
         <p>Designed by Tulasi ❤️</p>
         <p>© 2026 Tulasi Lasya Gorrela</p>
+
         <div class="footer-links">
           <a href="#">Privacy</a>
           <a href="#">Terms</a>

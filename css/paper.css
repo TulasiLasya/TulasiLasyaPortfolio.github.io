@@ -1,0 +1,36 @@
+.papers-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 40px;
+}
+
+.papers-intro {
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.paper-card {
+  background: #f7f4ff;
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.paper-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.paper-links a {
+  color: #6c63ff;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+/* mobile */
+
+@media (max-width: 768px) {
+  .papers-container {
+    padding: 40px 20px;
+  }
+}
