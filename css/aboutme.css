@@ -5,7 +5,7 @@
 }
 
 .about-container h2 {
-  font-size: 24px;
+  font-size: 26px;
   border-bottom: 2px solid #6c63ff;
   display: inline-block;
 }
@@ -21,6 +21,11 @@
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 30px;
+}
+
+.skill-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /* skills */
@@ -40,9 +45,32 @@
 
 .skill-tags span {
   background: #f0edff;
-  padding: 6px 12px;
+  padding: 10px 18px;
   margin: 6px;
   border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.language-list {
+  margin-top: 10px;
+}
+
+.lang-item {
+  display: flex;
+  justify-content: space-between;
+  background: #f7f4ff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+.lang-item span {
+  font-weight: 500;
+}
+
+.lang-item small {
+  color: #666;
 }
 
 /* mobile */
