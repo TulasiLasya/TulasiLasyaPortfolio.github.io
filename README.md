@@ -6,7 +6,7 @@ The portfolio showcases my projects, technical skills, and research work as a Co
 ## 🚀 Live Website
 
 You can view the Portfolio here:
-👉 https://tulasilasya.github.io/TulasiLasyaPortfolio.github.io/index.html
+👉 https://tulasilasya.github.io/TulasiLasyaPortfolio.github.io/
 
 ## 📌 About the Portfolio
 
